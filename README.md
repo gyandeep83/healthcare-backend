@@ -95,7 +95,7 @@ Authorization: Bearer <access_token>
 
 🧑‍🤝‍🧑 Patients
 | Method | Endpoint            | Description         |
-| ------ | ------------------- | ------------------- |
+| ------ | --------------------- | ------------------- |
 | POST   | /api/patients/      | Add patient         |
 | GET    | /api/patients/      | List all patients   |
 | GET    | /api/patients/<id>/ | Get patient details |
