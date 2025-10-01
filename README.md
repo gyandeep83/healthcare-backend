@@ -46,8 +46,28 @@ venv\Scripts\activate
 ```bash
 pip install -r requirements.txt
 ```
+### 4️⃣ Configure Environment Variables
 
-### 4️⃣ Configure Database
+Copy the example environment file:
+```bash
+cp .env.example .env
+```
+Open .env and fill in your credentials:
+
+Sample .env.example:
+```bash
+SECRET_KEY='your-django-secret-key'
+DEBUG=True
+DB_NAME=healthcare_db
+DB_USER=your-db-username
+DB_PASSWORD=your-db-password
+DB_HOST=localhost
+DB_PORT=5432
+```
+
+
+
+### 5️⃣ Configure Database
 Make sure PostgreSQL is running and create a database:
 
 ```bash
@@ -55,14 +75,14 @@ CREATE DATABASE healthcare_db;
 ```
 Update your .env or settings.py with the database credentials.
 
-### 5️⃣ Run Migrations
+### 6️⃣ Run Migrations
 
 ```bash
 python manage.py makemigrations
 python manage.py migrate
 ```
 
-### 6️⃣ Run Server
+### 7️⃣ Run Server
 
 ```bash
 python manage.py runserver
