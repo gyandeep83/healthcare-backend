@@ -20,9 +20,10 @@ PostgreSQL
 djangorestframework-simplejwt (JWT authentication)
 
 📦 Installation & Setup
+
 1️⃣ Clone the Repository
 
-git clone https://github.com/<your-username>/healthcare-backend.git
+git clone https://github.com/gyandeep83/healthcare-backend.git
 cd healthcare-backend
 
 2️⃣ Create & Activate Virtual Environment
