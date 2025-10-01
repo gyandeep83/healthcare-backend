@@ -31,3 +31,6 @@ It provides secure user authentication with **JWT** and APIs for managing patien
 ```bash
 git clone https://github.com/gyandeep83/healthcare-backend.git
 cd healthcare-backend
+```
+
+### 2️⃣ Create & Activate Virtual Environment
