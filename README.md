@@ -77,10 +77,41 @@ Use JWT in headers for authenticated requests:
 Authorization: Bearer <access_token>
 ```
 
-📖 API Endpoints
+### 📖 API Endpoints
+👤 Users
 | Method | Endpoint       | Description           |
 | ------ | -------------- | --------------------- |
 | POST   | /api/register/ | Register new user     |
 | POST   | /api/token/    | Login & get JWT token |
+
+🧑‍⚕️ Doctors
+| Method | Endpoint           | Description        |
+| ------ | ------------------ | ------------------ |
+| POST   | /api/doctors/      | Add a doctor       |
+| GET    | /api/doctors/      | List all doctors   |
+| GET    | /api/doctors/<id>/ | Get doctor details |
+| PUT    | /api/doctors/<id>/ | Update doctor      |
+| DELETE | /api/doctors/<id>/ | Delete doctor      |
+
+🧑‍🤝‍🧑 Patients
+| Method | Endpoint            | Description         |
+| ------ | ------------------- | ------------------- |
+| POST   | /api/patients/      | Add patient         |
+| GET    | /api/patients/      | List all patients   |
+| GET    | /api/patients/<id>/ | Get patient details |
+| PUT    | /api/patients/<id>/ | Update patient      |
+| DELETE | /api/patients/<id>/ | Delete patient      |
+
+🔗 Mappings
+| Method | Endpoint                    | Description               |
+| ------ | --------------------------- | ------------------------- |
+| POST   | /api/mappings/              | Assign doctor to patient  |
+| GET    | /api/mappings/              | List all mappings         |
+| GET    | /api/mappings/<patient_id>/ | Get doctors for a patient |
+| DELETE | /api/mappings/<id>/         | Remove mapping            |
+
+### 👨‍💻 Author
+Gyandeep – Backend Developer Intern Assignment
+
 
 
